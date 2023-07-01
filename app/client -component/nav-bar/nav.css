@@ -1,0 +1,85 @@
+.nav{
+    position: sticky;
+    padding: 1rem 0;
+}
+.nav > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .logo {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav .logo  span{
+    height: 15px;
+    aspect-ratio: 1/1;
+    background-color: #fff;
+    display: block;
+    border-radius: 100%;
+    opacity: 0.5;
+    animation: logoAnimation 1s ease-in-out infinite;
+}
+.nav .logo  span:nth-child(1){
+    animation: logoAnimation 1s ease-in-out 0s infinite;
+}
+.nav .logo  span:nth-child(2){
+    animation: logoAnimation 1s ease-in-out 0.1s infinite;
+}
+.nav .logo  span:nth-child(3){
+    animation: logoAnimation 1s ease-in-out 0.2s infinite;
+}
+
+@keyframes logoAnimation{
+    0% {
+        opacity: 0.2;
+      }
+    50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0.2;
+      }
+}
+
+.nav-menu{
+    display: flex;
+}
+.nav-menu > a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.2rem;
+    transition: all 0.1s ease;
+}
+.nav-menu > a:hover{
+    background-color: #ABD5FF;
+}
+
+.menu-button > .contact-button{
+    color: #fff;
+    padding: 0.5rem 1.7rem;
+    border: 1px solid #fff;
+    border-radius: 0.2rem;
+    transition: all 0.15s ease;
+}
+.menu-button > .contact-button:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.menu-icon{
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 100%;
+    transiton: all 0.15s ease;
+}
+.menu-icon:hover{
+    background-color: #ABD5FF;
+    cursor: pointer;
+}
+

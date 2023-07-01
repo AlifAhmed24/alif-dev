@@ -1,0 +1,42 @@
+.home{
+    margin: 10rem 0 5rem 0;
+}
+.home > .container{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.slider-icon > img{
+    height: auto;
+    width: 100%;
+}
+
+.slider-icon {
+    width: 740px;
+}
+
+.slider-info{
+    width: 50rem;
+    text-align: right;
+}
+.slider-info > .description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.slider-info > .description > h1{
+    font-size: 62px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 81px;
+}
+.slider-info > .description > h1 > span{
+    color: #FFDFC2;
+}
+.slider-info > .description > p{
+    color: #fff;
+    line-height: 33px;
+    font-size: 20px;
+    font-weight: 400;
+}
