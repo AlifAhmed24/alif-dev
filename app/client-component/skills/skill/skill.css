@@ -1,0 +1,66 @@
+.skill{
+    background-color: #ABD5FF;
+    width: fit-content;
+    padding: 1rem;
+    border: 1px solid #c5e2ff;
+    border-radius: 0.5rem;
+    transition: all .2s ease;
+    opacity: 0;
+}
+.skill:hover{
+    background-color: #bcddff;
+}
+.skill-percentage{
+    color: #fff;
+    display:flex;
+    justify-content: right;
+}
+/* .skill-bar{
+    width: 10rem;
+    height: 10rem;
+} */
+
+.skill-logo{
+    background-color: #ffffffd9;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.logo-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+.skill-logo img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+.skillName{
+    color: #fff;
+    font-size:20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+.CircularProgressbar-path {
+    stroke-width: 0.8rem;
+  }
+  .CircularProgressbar-trail {
+    stroke-width: 1.2rem;
+  }
+  .CircularProgressbar-text {
+    display: none;
+  }
+ 
+  

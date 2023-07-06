@@ -8,10 +8,43 @@
 }
 
 body{
-  background-color: #7BB7FF;
+  background: radial-gradient(circle, #7BB7FF, #5ba5ff);
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 .container{
   padding:0 10%;
+}
+
+/* ===============button=================== */
+.primary-button{
+  color: #7BB7FF;
+  background-color: #fff;
+  padding: 0.8rem 2.8rem;   
+  border-radius: 0.2rem;
+  font-weight: 500;     
+  border:1px solid #fff;
+  transition: all 0.2s ease;
+}
+.primary-button:hover{
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+.secondary-button{
+  color: #ffffff;
+  padding: 0.8rem 2.8rem;   
+  border-radius: 0.2rem;
+  font-weight: 500;     
+  border:1px solid #fff;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+.secondary-button:hover{
+  background-color: #fff;
+  color:#7BB7FF;
+  cursor: pointer;
+}
+.secondary-button:hover + .primary-button{
+  background-color: transparent;
+  color: #fff;
 }

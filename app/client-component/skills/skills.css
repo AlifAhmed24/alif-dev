@@ -1,0 +1,51 @@
+.skills{
+    padding: 4rem 0;
+    background-color: #9FCFFF;
+}
+.skills-type{
+    font-weight: 500;
+    color: #3a3a3a;
+    background-color: #FFDFC2;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    margin-top: 1.5rem;
+    border-radius: 0.2rem;
+}
+.skills-type:hover{
+    background-color: #ffd6b0;
+}
+.skillsWrapper{
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 0.5fr));
+    margin: 2rem 0rem;
+}
+@keyframes skillAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(2rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .skillsWrapper > .programmingSkillAnimate {
+    animation: skillAnimation 0.5s forwards;
+    opacity: 0;
+  }
+  
+  .skillsWrapper > .programmingSkillAnimate:nth-child(2n) {
+    animation-delay: 0.3s;
+  }
+  
+
+  .skillsWrapper > .otherSkillsAnimate {
+    animation: skillAnimation 0.5s forwards;
+    opacity: 0;
+  }
+  
+  .skillsWrapper > .otherSkillsAnimate:nth-child(2n) {
+    animation-delay: 0.3s;
+  }

@@ -1,0 +1,10 @@
+.portfolios{
+    background-color: #9FCFFF;
+    padding: 5rem 0;
+}
+.portfoliosWrapper{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    margin-top: 2rem;
+}

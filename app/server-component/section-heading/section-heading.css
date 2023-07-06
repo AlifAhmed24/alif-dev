@@ -1,0 +1,15 @@
+.sectionHeading{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.sectionHeading > h1{
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+.sectionHeading > span{
+    width: 15rem;
+    height: 0.1rem;
+    background-color: #fff;
+}

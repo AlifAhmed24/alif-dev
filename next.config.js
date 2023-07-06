@@ -1,8 +1,10 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-        serverActions: true,
-      },
-}
+  experimental: {
+    serverActions: true,
+  },
+  images: {
+    domains: ["yt3.googleusercontent.com"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

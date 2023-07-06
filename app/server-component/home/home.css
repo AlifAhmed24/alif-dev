@@ -1,15 +1,37 @@
-.home{
-    margin: 10rem 0 5rem 0;
+.hero-section{
+    margin: 8rem 0 5rem 0;
+    position: relative;
 }
-.home > .container{
+.dot{
+    position: absolute;
+}
+.primary-dot{
+    left: 48%;
+    top: 5%;
+    width: 5rem;
+    height: 5rem;
+}
+.secondary-dot{
+    left: 45%;
+    top: 70%;
+    width: 12rem;
+    height: 12rem;
+}
+.hero-section > .container{
     display: flex;
     gap: 5rem;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
-
+.homeBg{
+    position: absolute;
+    z-index: -10;
+}
 .slider-icon > img{
     height: auto;
     width: 100%;
+    user-select: none;
 }
 
 .slider-icon {
@@ -19,6 +41,9 @@
 .slider-info{
     width: 50rem;
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
 }
 .slider-info > .description{
     display: flex;
@@ -39,4 +64,35 @@
     line-height: 33px;
     font-size: 20px;
     font-weight: 400;
+}
+.slider-buttons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: end;
+}
+
+
+/* ===========================social icons===================== */
+.social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 0 2rem 0;
+    border-bottom: 1px solid #fff;;
+}
+
+.social-icon > a > .social{
+    fill: #7BB7FF;
+    background-color: #fff;
+    padding: 0.5rem;
+    box-sizing: content-box;
+    border-radius: 100%;
+    transition: all 0.2s ease;
+}
+
+.social-icon > a > .social:hover{
+    fill: #7BB7FF;
+    background-color: #ffffff;
+    transform: rotate(360deg) scale(1.1);
 }

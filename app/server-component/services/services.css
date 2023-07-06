@@ -1,0 +1,17 @@
+.services{
+    padding: 5rem 0;
+    position: relative;
+    overflow: hidden;
+}
+.serviceBg{
+    position: absolute;
+    right: 0;
+    top: -50%;
+    z-index: -10; 
+}
+.serviceWrapper{
+    margin-top: 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}

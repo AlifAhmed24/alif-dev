@@ -1,0 +1,50 @@
+.review{
+    background-color: #92C9FF;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.review .reviewHeader{
+    color: #fff;
+    font-weight: 500;
+}
+.review .reviewDesc{
+    line-height: 27px;
+    color: #252525;
+}
+.reviewFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviewer{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+.reviewer .reviewerAvatar{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.reviewer .reviewerAvatar img{
+    width: 100%;
+    height: 100%;
+}
+.reviewer span{
+    color: #1F303F;
+    font-weight: 500;
+}
+.reviewStar{
+    display: flex;
+    gap: 0.5rem;
+}
+.star{
+    fill: #E9F7FF;
+}
+.reviewerAvatar img{
+   
+}

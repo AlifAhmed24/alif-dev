@@ -1,0 +1,51 @@
+export const reviewData = [
+    {
+        title:'Web App with admin panel 1',
+        desc:"This man is amazing to work with....I know I must have been a difficult customer but he persisted with professionalism and he designed a site that I am super pleased with. Don't hesitate to hire this Freelancer...you will be glad you did.",
+        avatar:'https://yt3.googleusercontent.com/v2V0nbWNpg-3lapnunSgunvcX40GukCnSvfob-VpypoQ1Kb6Gh_1CuV-HqzIuO_1lB847XQbAA=s900-c-k-c0x00ffffff-no-rj',
+        name:'Alif Ahmed',
+        rating:3,
+    },
+    {
+        title:'Web App with admin panel 2',
+        desc:"This man is amazing to work with....I know I must have been a difficult customer but he persisted with professionalism and he designed a site that I am super pleased with. Don't hesitate to hire this Freelancer...you will be glad you did.",
+        avatar:'https://yt3.googleusercontent.com/v2V0nbWNpg-3lapnunSgunvcX40GukCnSvfob-VpypoQ1Kb6Gh_1CuV-HqzIuO_1lB847XQbAA=s900-c-k-c0x00ffffff-no-rj',
+        name:'Alif Ahmed',
+        rating:3,
+    },
+    {
+        title:'Web App with admin panel 3',
+        desc:"This man is amazing to work with....I know I must have been a difficult customer but he persisted with professionalism and he designed a site that I am super pleased with. Don't hesitate to hire this Freelancer...you will be glad you did.",
+        avatar:'https://yt3.googleusercontent.com/v2V0nbWNpg-3lapnunSgunvcX40GukCnSvfob-VpypoQ1Kb6Gh_1CuV-HqzIuO_1lB847XQbAA=s900-c-k-c0x00ffffff-no-rj',
+        name:'Alif Ahmed',
+        rating:3,
+    },
+    {
+        title:'Web App with admin panel 4',
+        desc:"This man is amazing to work with....I know I must have been a difficult customer but he persisted with professionalism and he designed a site that I am super pleased with. Don't hesitate to hire this Freelancer...you will be glad you did.",
+        avatar:'https://yt3.googleusercontent.com/v2V0nbWNpg-3lapnunSgunvcX40GukCnSvfob-VpypoQ1Kb6Gh_1CuV-HqzIuO_1lB847XQbAA=s900-c-k-c0x00ffffff-no-rj',
+        name:'Alif Ahmed',
+        rating:3,
+    },
+    {
+        title:'Web App with admin panel 5',
+        desc:"This man is amazing to work with....I know I must have been a difficult customer but he persisted with professionalism and he designed a site that I am super pleased with. Don't hesitate to hire this Freelancer...you will be glad you did.",
+        avatar:'https://yt3.googleusercontent.com/v2V0nbWNpg-3lapnunSgunvcX40GukCnSvfob-VpypoQ1Kb6Gh_1CuV-HqzIuO_1lB847XQbAA=s900-c-k-c0x00ffffff-no-rj',
+        name:'Alif Ahmed',
+        rating:3,
+    },
+    {
+        title:'Web App with admin panel 6',
+        desc:"This man is amazing to work with....I know I must have been a difficult customer but he persisted with professionalism and he designed a site that I am super pleased with. Don't hesitate to hire this Freelancer...you will be glad you did.",
+        avatar:'https://yt3.googleusercontent.com/v2V0nbWNpg-3lapnunSgunvcX40GukCnSvfob-VpypoQ1Kb6Gh_1CuV-HqzIuO_1lB847XQbAA=s900-c-k-c0x00ffffff-no-rj',
+        name:'Alif Ahmed',
+        rating:3,
+    },
+    {
+        title:'Web App with admin panel 7',
+        desc:"This man is amazing to work with....I know I must have been a difficult customer but he persisted with professionalism and he designed a site that I am super pleased with. Don't hesitate to hire this Freelancer...you will be glad you did.",
+        avatar:'https://yt3.googleusercontent.com/v2V0nbWNpg-3lapnunSgunvcX40GukCnSvfob-VpypoQ1Kb6Gh_1CuV-HqzIuO_1lB847XQbAA=s900-c-k-c0x00ffffff-no-rj',
+        name:'Alif Ahmed',
+        rating:3,
+    },
+]
