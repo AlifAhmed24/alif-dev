@@ -6,6 +6,7 @@
     flex-direction: column;
     gap: .7rem;
     border: 1px solid #e4f0ff;
+    opacity: 0;
 }
 .portfolio > .thumbnail{
     width: 100%;

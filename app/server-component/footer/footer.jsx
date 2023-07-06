@@ -39,7 +39,7 @@ function Footer() {
             </div>
         </div>
         <div className="footerConnect section">
-            <h2 className="connectHeader">Cooonect With Me</h2>
+            <h2 className="connectHeader">Connect With Me</h2>
             <div className="connectBody">
                 <Link href='/'>
                 <box-icon className='linkedin' name='linkedin' type='logo'></box-icon>
