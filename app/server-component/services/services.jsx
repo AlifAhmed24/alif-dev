@@ -8,7 +8,7 @@ import Image from 'next/image'
 function Services() {
   return (
     <div className='services'>
-        <Image className="serviceBg" src={bg} />
+        <Image className="serviceBg" src={bg} alt='servicebg' width='100' height='100'/>
         <div className='container'>
             <SectionHeading heading='SERVICES'  />
             <div className='serviceWrapper'>

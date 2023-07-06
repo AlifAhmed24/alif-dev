@@ -31,6 +31,7 @@ function Skills() {
           >
             {programmingSkills.map((skill, index) => (
               <Skill
+                key={index}
                 index={index}
                 name={skill.name}
                 percentages={skill.percentage}
@@ -50,6 +51,7 @@ function Skills() {
           >
             {othersSkills.map((skill, index) => (
               <Skill
+                key={index}
                 name={skill.name}
                 percentages={skill.percentage}
                 logo={skill.logo}

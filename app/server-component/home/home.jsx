@@ -17,12 +17,12 @@ function Home() {
   return (
     <div className="home">
       <div className='hero-section'>
-      <Image className="dot primary-dot" src={dot} />
-      <Image className="dot secondary-dot" src={dot} />
-      <Image className="homeBg" src={homeBg} />
+      <Image className="dot primary-dot" src={dot} alt='bg' width='100' height='100' quality={100}/>
+      <Image className="dot secondary-dot" src={dot} alt='bg' width='100' height='100' quality={100}/>
+      <Image className="homeBg" src={homeBg} alt='bg' width='' height='' quality={100}/>
       <div className="container">
         <div className="slider-icon">
-          <Image src={SliderIcon} />
+          <Image src={SliderIcon}  alt='slider' width={1200} height={800} quality={100}/>
         </div>
         <div className="slider-info">
           <div className="description">

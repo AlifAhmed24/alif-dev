@@ -2,6 +2,7 @@
 
 import React,{useState, useEffect, useRef} from 'react'
 import './portfolio.css'
+import Image from 'next/image'
 
 function Portfolio({thumbnail, type, desc}) {
     const [inViewport, setInViewport] = useState(false);
@@ -38,7 +39,7 @@ function Portfolio({thumbnail, type, desc}) {
   return (
     <div className={`portfolio ${inViewport ? 'animate-portfolio' : ''}`} ref={portfolioRef}>
         <div className='thumbnail'>
-            <img src={thumbnail} alt='' />
+            <Image src={thumbnail} alt='thumnail'  width={1200} height={800} quality={80}/>
         </div>
         <div className='portfolio-info'>
             <span>{type}</span>

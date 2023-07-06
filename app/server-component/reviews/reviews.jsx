@@ -44,6 +44,7 @@ function Reviews() {
             {reviewData.map((review, index) => (
               <div className='swiper-slide' key={index} >
                 <Review
+                  key={index}
                   title={review.title}
                   desc={review.desc}
                   name={review.name}
