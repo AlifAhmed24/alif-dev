@@ -37,7 +37,7 @@ function Home() {
               stack and diverse technologies, I deliver innovative solutions
               that exceed expectations. With a passion for exceptional web
               experiences, I bring a collaborative mindset, problem-solving
-              skills, and a commitment to on-time project delivery. Let's create
+              skills, and a commitment to on-time project delivery. Let&apos;s create
               impactful digital solutions together.
             </p>
           </div>
