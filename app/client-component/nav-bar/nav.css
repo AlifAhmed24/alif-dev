@@ -97,13 +97,19 @@
     }
     100% {
       opacity: 1;
-      transform: translateY(0);
+      transform: translateX(0);
     }
   }
 @keyframes menuClose {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+      }
     100% {
         opacity: 0;
         transform: translateX(15rem);
+        
+
       }
       
   }
@@ -112,6 +118,7 @@
 }
 .menuClose{
     animation: menuClose 0.2s forwards;
+    display: none!important;
 }
 
 /* =================side-menu============== */

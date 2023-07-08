@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useRef, useEffect, useState } from "react";
+import Image from 'next/image'
 import "./skill.css";
 import {
   CircularProgressbar,
@@ -119,8 +120,8 @@ function Skill({percentages, logo, name, animate, index, getter}) {
                 >
                   <div className="skill-logo">
                     <div className="logo-holder">
-                    <img 
-                      src={logo || 'https://e7.pngegg.com/pngimages/225/716/png-clipart-computer-icons-computer-programming-logo-bing-search-engine-people-angle-text-thumbnail.png'}
+                    <Image 
+                      src={logo || 'https://e7.pngegg.com/pngimages/225/716/png-clipart-computer-icons-computer-programming-logo-bing-search-engine-people-angle-text-thumbnail.png'} width={300} height={300}
                       alt="</>"
                     />
                     </div>

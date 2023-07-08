@@ -18,6 +18,7 @@ function Reviews() {
         modules: [Navigation, Pagination, Autoplay ],
         slidesPerView: 2,
         spaceBetween: 15,
+        centeredSlides: true,
         loop: true, 
         speed: 500,
         navigation: {
@@ -31,6 +32,20 @@ function Reviews() {
         autoplay: {
           delay: 3000,
         },
+        breakpoints: {
+          // when window width is >= 320px
+          1160: {
+            slidesPerView: 2,
+          },
+          870: {
+            slidesPerView: 1.5,
+          },
+          0: {
+            slidesPerView: 1,
+          },
+          
+         
+        }
       });
     // }
   }, []);

@@ -51,7 +51,7 @@ export const programmingSkills = [
     },
     {
         name: 'JWT',
-        logo: 'https://cdn.cdnlogo.com/logos/j/20/jwt.svg',
+        logo: 'https://"cdn.cdnlogo.com"/logos/j/20/jwt.svg',
         percentage: '100',
     },
     {
@@ -63,6 +63,11 @@ export const programmingSkills = [
         name: 'Bootstrap',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png',
         percentage: '100',
+    },
+    {
+        name: 'Material UI',
+        logo: 'https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png',
+        percentage: '90',
     },
     {
         name: 'Git',

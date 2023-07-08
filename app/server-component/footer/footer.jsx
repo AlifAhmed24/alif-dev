@@ -45,23 +45,23 @@ function Footer() {
                 <box-icon className='linkedin' name='linkedin' type='logo'></box-icon>
                 <span>Linkedin</span>
                 </Link>
-                <Link href='/'>
+                <Link href='https://twitter.com/AlifAhmedDev' target='_blank'>
                 <box-icon className='twitter' name='twitter' type='logo'></box-icon>
                 <span>Twitter</span>
                 </Link>
-                <Link href='/'>
-                <box-icon className='whatsapp' name='whatsapp' type='logo'></box-icon>
-                <span>Whatsapp</span>
+                <Link href='https://stackoverflow.com/users/21634507/alif-ahmed' target='_blank'>
+                <box-icon className='stackoverflow' name='stack-overflow' type='logo'></box-icon>
+                <span>Stack Overflow</span>
                 </Link>
-                <Link href='/'>
+                <Link href='https://github.com/AlifAhmed24' target='_blank'>
                 <box-icon className='github' name='github' type='logo'></box-icon>
                 <span>Github</span>
                 </Link>
-                <Link href='/'>
-                <box-icon className='telegram' name='telegram' type='logo'></box-icon>
-                <span>Telegram</span>
+                <Link href='https://medium.com/@alif.dev.design' target='_blank'>
+                <box-icon className='medium' name='medium' type='logo'></box-icon>
+                <span>Medium</span>
                 </Link>
-            </div>
+            </div>    
         </div>      
         <div className="footerContact section">
             <h2 className="contactHeader">Contact</h2>
@@ -70,7 +70,7 @@ function Footer() {
                 <box-icon className='gmail' name='gmail' type='logo'></box-icon>
                 <span>Mail</span>
                 </Link>
-                <Link href='/'>
+                <Link href='https://twitter.com/AlifAhmedDev' target='_blank'>
                 <box-icon className='twitter' name='twitter' type='logo'></box-icon>
                 <span>Twitter</span>
                 </Link>
@@ -84,7 +84,6 @@ function Footer() {
                 </Link>
             </div>
         </div>  
-
         </div>
         <div className="copyrightWrapper">
           <span>&copy; {year} Alif. All rights reserved</span>
