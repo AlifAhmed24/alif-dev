@@ -15,7 +15,7 @@ import SocialIcon from '../../client-component/social-icons/social-icon'
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" >
       <div className='hero-section'>
       <Image className="dot primary-dot" src={dot} alt='bg' width='100' height='100' quality={100}/>
       <Image className="dot secondary-dot" src={dot} alt='bg' width='100' height='100' quality={100}/>
@@ -27,7 +27,7 @@ function Home() {
         <div className="slider-info">
           <div className="description">
             <h1>
-              Professional Full Stack Web{" "}
+              <span>Professional</span> Full Stack Web{" "}
               <span>
                 <HeadingAnimation />
               </span>
@@ -54,12 +54,12 @@ function Home() {
       </div>
       <div className='container'>
       <div className="social-icon">
-        <Link href='/'><SocialIcon classId='social' name='stack-overflow' /></Link>
-        <Link href='/'><SocialIcon classId='social' name='facebook' /></Link>
-        <Link href='/'><SocialIcon classId='social' name='medium' /></Link>
-        <Link href='/'><SocialIcon classId='social' name='linkedin' /></Link>
-        <Link href='/'><SocialIcon classId='social' name='twitter' /></Link>
-        <Link href='/'><SocialIcon classId='social' name='github' /></Link>
+        <Link href='https://stackoverflow.com/users/21634507/alif-ahmed' target='_blank'><SocialIcon classId='social' name='stack-overflow' /></Link>
+        <Link href='https://www.facebook.com/alif.ahmed.dev/' target='_blank'><SocialIcon classId='social' name='facebook' /></Link>
+        <Link href='https://medium.com/@alif.dev.design' target='_blank'><SocialIcon classId='social' name='medium' /></Link>
+        <Link href='' target='_blank'><SocialIcon classId='social' name='linkedin' /></Link>
+        <Link href='https://twitter.com/AlifAhmedDev' target='_blank'><SocialIcon classId='social' name='twitter' /></Link>
+        <Link href='https://github.com/AlifAhmed24/' target='_blank'><SocialIcon classId='social' name='github' /></Link>
       </div>
       </div>
     </div>

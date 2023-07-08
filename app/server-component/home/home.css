@@ -1,6 +1,8 @@
+
 .hero-section{
     margin: 8rem 0 5rem 0;
     position: relative;
+    z-index: -2;
 }
 .dot{
     position: absolute;
@@ -27,6 +29,9 @@
 .homeBg{
     position: absolute;
     z-index: -10;
+    overflow: hidden;
+    width: 900px;
+    left: -1%;
 }
 .slider-icon > img{
     height: auto;
@@ -35,11 +40,11 @@
 }
 
 .slider-icon {
-    width: 740px;
+    width: 50%;
 }
 
 .slider-info{
-    width: 50rem;
+    width: 50%;
     text-align: right;
     display: flex;
     flex-direction: column;
@@ -56,7 +61,7 @@
     font-weight: 600;
     line-height: 81px;
 }
-.slider-info > .description > h1 > span{
+.slider-info > .description > h1 > span:last-child{
     color: #FFDFC2;
 }
 .slider-info > .description > p{
@@ -71,7 +76,37 @@
     align-items: center;
     justify-content: end;
 }
-
+.primary-button{
+    color: #7BB7FF;
+    background-color: #fff;
+    padding: 0.8rem 2.8rem;   
+    border-radius: 0.2rem;
+    font-weight: 500;     
+    border:1px solid #fff;
+    transition: all 0.2s ease;
+  }
+  .primary-button:hover{
+    background-color: #f3f3f3;
+    cursor: pointer;
+  }
+  .secondary-button{
+    color: #ffffff;
+    padding: 0.8rem 2.8rem;   
+    border-radius: 0.2rem;
+    font-weight: 500;     
+    border:1px solid #fff;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+  }
+  .secondary-button:hover{
+    background-color: #fff;
+    color:#7BB7FF;
+    cursor: pointer;
+  }
+  .secondary-button:hover + .primary-button{
+    background-color: transparent;
+    color: #fff;
+  }
 
 /* ===========================social icons===================== */
 .social-icon{
@@ -95,4 +130,218 @@
     fill: #7BB7FF;
     background-color: #ffffff;
     transform: rotate(360deg) scale(1.1);
+}
+
+/* ===========media querry============= */
+@media screen and (max-width: 1580px) {
+    .homeBg{
+        width: 750px;
+        left: -1%;
+    }
+  }
+@media screen and (max-width: 1521px) {
+    .slider-info > .description > h1{
+        font-size: 55px;
+        
+    }
+  }
+@media screen and (max-width: 1450px) {
+    .slider-info > .description > p{
+        line-height:0 27px;
+        font-size: 17px;
+    }
+  }
+@media screen and (max-width: 1350px) {
+    .slider-info > .description > h1{
+        font-size: 50px;  
+    }
+    .slider-info > .description > p{
+        display: none;
+    }
+    .slider-info{
+        gap: 4rem;
+    }
+  }
+  @media screen and (max-width: 1240px) {
+    .hero-section > .container{
+        gap: 2rem;
+    }
+    .homeBg{
+        width: 650px;
+        left: -1%;
+        top: -50%;
+    }
+    .hero-section{
+        margin: 5rem 0 5rem 0;
+        position: relative;
+    }
+    
+    
+  }
+  @media screen and (max-width: 1200px) {
+    .slider-info > .description > h1{
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .slider-info > .description > h1 > span:first-child{
+        display: block;
+      }
+      .homeBg{
+        width: 550px;
+        left: -1%;
+        top: -80%;
+    }
+    
+  }
+  @media screen and (max-width: 1005px) {
+    .slider-info > .description > h1{
+        font-size: 40px;
+        line-height: 65px;
+    }
+    
+    .hero-section > .container{
+        gap: 1rem;
+    }
+    .homeBg{
+        width: 500px;
+        left: -1%;
+        top: -120%;
+    }
+    
+    
+  }
+  @media screen and (max-width: 850px) {
+    .slider-info > .description > h1{
+        font-size: 35px;
+        line-height: 55px;
+    }
+    .primary-button, .secondary-button{
+        padding: 0.5rem 2rem;   
+        border-radius: 0.2rem;
+        border:1px solid #fff;
+      }
+      .slider-info{
+        gap: 2.5rem;
+    }
+    .homeBg{
+        width: 400px;
+        left: -1%;
+        top: -160%;
+    }
+    .hero-section{
+        margin: 4rem 0 5rem 0;
+    }
+    .slider-info > .description > h1 > span:first-child{
+        display: inline;
+      }
+    
+  }
+  @media screen and (max-width: 726px) {
+    .slider-info > .description > h1 > span:first-child{
+        display: block;
+      }
+    
+  }
+  @media screen and (max-width: 763px) {
+    .slider-info > .description > h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .primary-button, .secondary-button{
+        padding: 0.5rem 2rem;   
+        border-radius: 0.2rem;
+        background-color:#fff;
+        color: #7BB7FF;
+      }
+      .primary-button{
+        display: none;
+      }
+      .slider-info{
+        gap: 2.5rem;
+    }
+    
+  }
+  @media screen and (max-width: 630px) {
+    .hero-section{
+        margin: 2rem 0 2rem 0;
+        position: relative;
+    }
+    .homeBg{
+        width: 300px;
+        left: -1%;
+        top: -250%;
+    }
+    .slider-info > .description > h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .social-icon > a > .social{
+        padding: 0.2rem;
+        box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 517px) {
+    .slider-info > .description > h1{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .secondary-button{
+        padding: 0.5rem 1.5rem;   
+        border-radius: 0.2rem;
+        border:1px solid #fff;
+        font-size: 0.8rem;
+        background-color: #fff;
+        color: #007aff;
+      }
+      .slider-info{
+        gap: 1rem;
+      }
+      .slider-icon{
+        width: 220px
+      }
+  }
+  @media screen and (max-width: 400px) {
+    .hero-section{
+        margin: 1rem 0 2rem 0;
+       
+    }
+    .hero-section .container{
+       
+    }
+    .homeBg{
+        display: none;
+    }
+    .slider-info > .description > h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .slider-info > .description > h1 >span{
+        display: block;
+    }
+    .slider-info{
+        width: 10rem;
+        text-align: right;
+        display: flex;
+        gap: 7rem;
+    }
+    .primary-button{
+        display: none;
+      }
+      .secondary-button{
+        padding: 0.2rem 1.1rem;   
+        border-radius: 0.2rem;
+        border:1px solid #fff;
+        font-size: 0.6rem;
+        background-color: #fff;
+        color: #007aff;
+      }
+      .slider-info{
+        gap: 1rem;
+      }
+      .slider-info > .description > h1 > span:first-child{
+        display: block;
+      }
+      .slider-icon{
+        width: 150px
+      }
 }

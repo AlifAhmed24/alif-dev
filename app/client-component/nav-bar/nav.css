@@ -45,6 +45,7 @@
 
 .nav-menu{
     display: flex;
+    z-index: 20;
 }
 .nav-menu > a{
     color: #fff;
@@ -76,10 +77,113 @@
     height: 2rem;
     padding: 0.5rem;
     border-radius: 100%;
-    transiton: all 0.15s ease;
+    transition: all 0.15s ease;
+    z-index: 101;
+    position: relative;
 }
 .menu-icon:hover{
-    background-color: #ABD5FF;
+    background-color: #bcdeff;
     cursor: pointer;
 }
 
+.menu-icon-wrapper{
+    display: none;
+    z-index: 500;
+}
+@keyframes menuOpen {
+    0% {
+      opacity: 0;
+      transform: translateX(15rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+@keyframes menuClose {
+    100% {
+        opacity: 0;
+        transform: translateX(15rem);
+      }
+      
+  }
+.menuOpen{
+    animation: menuOpen 0.2s forwards;
+}
+.menuClose{
+    animation: menuClose 0.2s forwards;
+}
+
+/* =================side-menu============== */
+.side-menu{
+    background-color: #9bcdff;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0 2rem 0;
+    border-radius: .2rem;
+    gap: 3rem;
+    width: 15rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.side-menu-list{
+    display: flex;
+    flex-direction: column;
+  
+}
+.side-menu-list > a{
+    padding: 0.8rem 2rem;
+    transition: all 0.2s ease;
+}
+.side-menu-list > a:hover{
+    background-color: #BDE1FF;
+}
+.side-menu-list > a{
+    color: #fff;
+}
+.side-menu-list > span{
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+}
+.side-menu-social{
+    margin: auto
+}
+
+/* ============social icons============== */
+.side-menu-social{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 0 2rem 0;
+}
+
+.side-menu-social > a > .social{
+    fill: #7BB7FF;
+    background-color: #fff;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    border-radius: 100%;
+    transition: all 0.2s ease;
+}
+
+.side-menu-social > a > .social:hover{
+    fill: #7BB7FF;
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+/* =====================media querry==================== */
+@media screen and (max-width: 850px) {
+    .nav-menu{
+        display: none;
+    }
+    .contact-button{
+        display: none;
+    }
+    .menu-icon-wrapper{
+        display: block;
+    }
+}

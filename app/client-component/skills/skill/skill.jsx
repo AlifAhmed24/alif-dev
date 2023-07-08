@@ -119,7 +119,7 @@ function Skill({percentages, logo, name, animate, index, getter}) {
                 >
                   <div className="skill-logo">
                     <div className="logo-holder">
-                    <img
+                    <img 
                       src={logo || 'https://e7.pngegg.com/pngimages/225/716/png-clipart-computer-icons-computer-programming-logo-bing-search-engine-people-angle-text-thumbnail.png'}
                       alt="</>"
                     />

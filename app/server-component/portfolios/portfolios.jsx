@@ -5,7 +5,7 @@ import {portfolioData} from './portfolios-data'
 
 function Portfolios() {
   return (
-    <div className='portfolios'>
+    <div className='portfolios' id='projects'>
         <div className='container'>
             <SectionHeading heading='Project' direction='left'/>
             <div className='portfoliosWrapper'>

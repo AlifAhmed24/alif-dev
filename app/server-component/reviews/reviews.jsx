@@ -36,7 +36,7 @@ function Reviews() {
   }, []);
 
   return (
-    <div className='reviews'>
+    <div className='reviews' id='reviews'>
       <div className='container'>
         <SectionHeading heading='reviews' />
         <div className='swiper'>

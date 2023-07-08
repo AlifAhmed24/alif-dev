@@ -31,11 +31,11 @@ function Footer() {
         <div className="footerNavigate section">
             <h2 className="naviagteHeader">Navigate</h2>
             <div className="navigateBody">
-                <Link href='/'>Home</Link>
-                <Link href='/'>Skills</Link>
-                <Link href='/'>Project</Link>
-                <Link href='/'>Services</Link>
-                <Link href='/'>Reviews</Link>
+              <Link href="#home">Home</Link>
+              <Link href="#services">Services</Link>
+              <Link href="#skills">Skills</Link>
+              <Link href="#projects">Project</Link>
+              <Link href="#reviews">Reviews</Link>
             </div>
         </div>
         <div className="footerConnect section">
