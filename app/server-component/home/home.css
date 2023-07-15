@@ -2,7 +2,7 @@
 .hero-section{
     margin: 8rem 0 5rem 0;
     position: relative;
-    z-index: -2;
+    /* z-index: -2; */
 }
 .dot{
     position: absolute;

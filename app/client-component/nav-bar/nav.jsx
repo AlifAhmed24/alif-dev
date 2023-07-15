@@ -10,8 +10,9 @@ import SocialIcon from "../social-icons/social-icon";
 
 function Navbar() {
   const [isOpen, setOpen] = useState(false);
-  const menuRef = useRef();
   console.log(isOpen)
+  const menuRef = useRef();
+  const sidebarRef = useRef();
 
 
   const menuClick = () => {
@@ -21,6 +22,7 @@ function Navbar() {
       setOpen(false);
     }
   }
+
 
   return (
     <nav className="nav" id='home'>
@@ -43,7 +45,7 @@ function Navbar() {
          <MenuIcon className="menu-icon"/>
         </span>
       </div>   
-     <div className={`side-menu ${isOpen ? 'menuOpen' : 'menuClose'}`} >
+     <div className={`side-menu ${isOpen ? 'menuOpen' : 'menuClose'}`} ref={sidebarRef} >
            <div className='side-menu-list'>
           <Link href="#home">Home</Link>
           <Link href="#services">Services</Link>
